@@ -3,15 +3,15 @@ package fundamentals;
 import java.util.Scanner;
 
 public class Functions {
+   
 
                // 1. Print a Name
 
-    public static void printMyName(String name) {
-        System.out.println(name);
-        return;
+    static void printMyName(String name) {
+        printMyName("Parth");    
     }
 
-    printMyName(name); //call kiya
+
 
                  // 2. SUM OF 2 NO.S
     
@@ -70,6 +70,8 @@ public class Functions {
                
         printFactorial(n);
     }
+
 }
+
 
  
