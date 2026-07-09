@@ -1,7 +1,6 @@
 package OOPs.Bank;
 
 
-
 class Account{
     public String name; // Public modifier
     protected String email; // Protected modifier
@@ -24,6 +23,7 @@ public class Bank {
         account1.email = "parth@gmail.com";
         account1.setPassword("abcd"); 
         System.out.println(account1.getPassword());
+        
     }
 }
 
