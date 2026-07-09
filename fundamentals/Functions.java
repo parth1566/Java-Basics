@@ -20,7 +20,7 @@ public class Functions {
         return sum;
     }
 
-        public static void main(String args[]) {
+        public static void main1(String args[]) {
         Scanner sc = new Scanner(System.in);
         //String name = sc.next();
         int a = sc.nextInt();
@@ -29,7 +29,7 @@ public class Functions {
         int sum = calculateSum(a, b);
         System.out.println("Sum of 2 numbers is : "+ sum);
 
-    } 
+    }
 
 
                  // 3. Multiplication of 2 no.s
@@ -38,7 +38,7 @@ public class Functions {
         return a * b;
     }
 
-        public static void main(String args[]) {
+        public static void main2(String args[]) {
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
         int b = sc.nextInt();
